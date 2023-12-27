@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	apiKey := "AIzaSyA9ri_3bC-QukUP4jk-8GhTV7RUXD18OMM"
+	apiKey := "YOUR_API_KEY"
 	geminiEndpoint := "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
 	requestBody := map[string]interface{}{
